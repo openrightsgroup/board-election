@@ -75,6 +75,8 @@ def rankconvert(parser):
     for r in reader:
         weights = []
         for c in r.rstrip().split(delimiter):
+            if c =='':
+               c = n
             weights.append(int(c))
         last = max(weights)
 
@@ -89,7 +91,7 @@ def rankconvert(parser):
     print "0"
     for choice in choices:
         print '"%s"' % choice
-    print '"Ballot data converted by rankconvert"'
+    print '"Ballot data converted by rankconvert from %s"' % args[0]
 
 if __name__ == "__main__":
     rankconvert(parser)
