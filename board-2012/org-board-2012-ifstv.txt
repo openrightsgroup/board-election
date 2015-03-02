@@ -1,0 +1,89 @@
+OpenSTV version 1.6.1 (http://www.OpenSTV.org/)
+
+Suggested donation for using OpenSTV for an election is $50.  Please go to 
+http://www.OpenSTV.org/donate to donate via PayPal, Google Checkout, or
+Amazon Payments.  
+
+Certified election reports are also available.  Please go to 
+http://www.openstv.org/certified-reports for more information.
+
+Loading ballots from file org-board-2012.blt.
+Ballot file contains 9 candidates and 265 ballots.
+No candidates have withdrawn.
+Ballot file contains 265 non-empty ballots.
+
+Counting votes for Ballot data converted by rankconvert from org-board-2012.csv using Meek STV.
+9 candidates running for 3 seats.
+
+ R|Owen Blacke|John Elliot|Ryan Jendou|Richard Kin|Dave Levy  |Gervase Mar
+  |r          |t          |bi         |g          |           |kham       
+  |-----------+-----------+-----------+-----------+-----------+-----------
+  |Milena Popo|Seb Schmoll|RON        |Exhausted  |Surplus    |Threshold  
+  |va         |er         |           |           |           |           
+==========================================================================
+ 1|  82.000000|  34.000000|  10.000000|  33.000000|  13.000000|  25.000000
+  |  57.000000|   9.000000|   2.000000|   0.000000|  15.749999|  66.250001
+  |-----------------------------------------------------------------------
+  | Count of first choices. Candidate Owen Blacker has reached the
+  | threshold and is elected.
+==========================================================================
+ 2|  66.250014|  37.649387|  10.192073|  35.689022|  13.768292|  26.344511
+  |  63.722555|   9.384146|   2.000000|   0.000000|   0.000013|  66.250001
+  |-----------------------------------------------------------------------
+  | Count after transferring surplus votes. Keep factors of candidates who
+  | have exceeded the threshold: Owen Blacker, 0.807927.
+==========================================================================
+ 3|  66.250014|  37.649387|  10.192073|  35.689022|  14.768292|  26.344511
+  |  63.722555|   9.384146|           |   1.000000|   0.250013|  66.000001
+  |-----------------------------------------------------------------------
+  | Count after eliminating RON and transferring votes. All losing
+  | candidates are eliminated.
+==========================================================================
+ 4|  67.057941|  38.649387|  10.192073|  35.881095|  16.960365|  26.344511
+  |  68.914628|           |           |   1.000000|   3.972567|  66.000001
+  |-----------------------------------------------------------------------
+  | Count after eliminating Seb Schmoller and transferring votes. All
+  | losing candidates are eliminated. Candidate Milena Popova has reached
+  | the threshold and is elected.
+==========================================================================
+ 5|  68.673795|  39.649387|           |  39.265241|  18.152438|  27.344511
+  |  70.914628|           |           |   1.000000|   7.588421|  66.000001
+  |-----------------------------------------------------------------------
+  | Count after eliminating Ryan Jendoubi and transferring votes. All
+  | losing candidates are eliminated.
+==========================================================================
+ 6|  70.289649|  44.841460|           |  43.033533|           |  28.536584
+  |  76.298774|           |           |   2.000000|  15.088421|  65.750001
+  |-----------------------------------------------------------------------
+  | Count after eliminating Dave Levy and transferring votes. All losing
+  | candidates are eliminated.
+==========================================================================
+ 7|  68.048783|  49.494385|           |  47.499074|           |  30.087473
+  |  67.458678|           |           |   2.411607|   4.213263|  65.647099
+  |-----------------------------------------------------------------------
+  | Count after transferring surplus votes. Keep factors of candidates who
+  | have exceeded the threshold: Owen Blacker, 0.755748 and Milena Popova,
+  | 0.861744.
+==========================================================================
+ 8|  73.105704|  58.122544|           |  54.328338|           |           
+  |  75.615526|           |           |   3.827888|  18.135172|  65.293029
+  |-----------------------------------------------------------------------
+  | Count after eliminating Gervase Markham and transferring votes. All
+  | losing candidates are eliminated.
+==========================================================================
+ 9|  67.436987|  64.347433|           |  60.769668|           |           
+  |  67.937343|           |           |   4.508569|   5.128614|  65.122858
+  |-----------------------------------------------------------------------
+  | Count after transferring surplus votes. Keep factors of candidates who
+  | have exceeded the threshold: Owen Blacker, 0.674983 and Milena Popova,
+  | 0.744105.
+==========================================================================
+10|  65.665403|  66.145439|           |  62.631820|           |           
+  |  65.849828|           |           |   4.707510|   2.441301|  65.073123
+  |-----------------------------------------------------------------------
+  | Count after transferring surplus votes. Keep factors of candidates who
+  | have exceeded the threshold: Owen Blacker, 0.651821 and Milena Popova,
+  | 0.713279. Candidate John Elliott has reached the threshold and is
+  | elected.
+
+Winners are Owen Blacker, John Elliott, and Milena Popova.
